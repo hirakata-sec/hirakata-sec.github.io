@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="セキュリティ界隈で働く、枚方に縁がある人々が集まるコミュニティの公式ウェブサイトです">
+    <meta name="description" content="セキュリティ界隈で働く、枚方に縁がある人々が集まるコミュニティの公式ウェブサイトです | Official website for the Hirakata Security Community">
     <title>枚方セキュリティコミュニティ | Hirakata Security Community</title>
     <style>
         * {
@@ -117,6 +117,16 @@
             font-size: 1.2em;
         }
 
+        .link-github {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .link-github:hover {
+            text-decoration: underline;
+        }
+
         @media (max-width: 768px) {
             h1 {
                 font-size: 2em;
@@ -143,7 +153,7 @@
 <body>
     <div class="container">
         <header>
-            <h1><span class="emoji">🔐</span> 枚方セキュリティコミュニティ</h1>
+            <h1><span class="emoji" aria-label="セキュリティ">🔐</span> 枚方セキュリティコミュニティ</h1>
             <p class="subtitle">Hirakata Security Community</p>
         </header>
 
@@ -161,15 +171,15 @@
                 <h2>活動内容</h2>
                 <div class="about-grid">
                     <div class="card">
-                        <h3><span class="emoji">💡</span> 知識共有</h3>
+                        <h3><span class="emoji" aria-label="知識">💡</span> 知識共有</h3>
                         <p>セキュリティに関する最新情報や技術、ベストプラクティスを共有し、メンバー全員のスキル向上を図ります。</p>
                     </div>
                     <div class="card">
-                        <h3><span class="emoji">🤝</span> ネットワーキング</h3>
+                        <h3><span class="emoji" aria-label="ネットワーキング">🤝</span> ネットワーキング</h3>
                         <p>枚方に縁のあるセキュリティ専門家が集まり、意見交換や相互支援を行う場を提供します。</p>
                     </div>
                     <div class="card">
-                        <h3><span class="emoji">🎯</span> 技術交流</h3>
+                        <h3><span class="emoji" aria-label="技術">🎯</span> 技術交流</h3>
                         <p>勉強会やイベントを通じて、実践的なセキュリティスキルを学び、議論する機会を創出します。</p>
                     </div>
                 </div>
@@ -195,7 +205,7 @@
                 </p>
                 <p>
                     <strong>GitHub:</strong> 
-                    <a href="https://github.com/hirakata-sec" target="_blank" rel="noopener noreferrer" style="color: #667eea; text-decoration: none; font-weight: 500;">
+                    <a href="https://github.com/hirakata-sec" target="_blank" rel="noopener noreferrer" class="link-github">
                         github.com/hirakata-sec
                     </a>
                 </p>
