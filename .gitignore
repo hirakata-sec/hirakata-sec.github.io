@@ -1,0 +1,20 @@
+# Jekyll build artifacts
+_site/
+public/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler output
+.bundle/
+vendor/bundle/
+vendor/cache/
+vendor/gems/
+vendor/ruby/
+
+# Node modules (念のため)
+node_modules/
+
+# macOS
+.DS_Store
+
